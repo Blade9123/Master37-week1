@@ -1,27 +1,20 @@
 // console.log("Hello".toUpperCase());
 // console.log(Math.ceil(1)*10);
-// let space1 = "X"
-// let space2 = "O"
-// let space3 = ""
-// let space4 = "X"
-// let space5 = "X"
-// let space6 = ""
-// let space7 = "O"
-// let space8 = ""
-// let space9 = ""
-// console.log(${space1})
-// console.log("    |        |")
-// console.log("    |        |")
-// console.log("    |        |")
-// console.log("-------------------")
-// console.log("    |        |")
-// console.log("    |        |")
-// console.log("    |        |")
-// console.log("-------------------")
-// console.log("    |        |")
-// console.log("    |        |")
-// console.log("    |        |")
 
+
+console.log("    |        |     ")
+console.log("    |        |     ")
+console.log("    |        |     ")
+console.log("-------------------")
+console.log("    |        |     ")
+console.log("    |        |     ")
+console.log("    |        |     ")
+console.log("-------------------")
+console.log("    |        |     ")
+console.log("    |        |      ")
+console.log("    |        |     ")
+
+// console.log("   |   |   ")
 // const grid = ["|",];
 // console.log(grid);
 // let grid = ["     |    |     ", "----------------"]
@@ -155,13 +148,14 @@
 // if (num % 3 === 0 && num % 5 === 0) {
 // console.log("fizzbuzz");
 // }
-let num = 8
-if (num % 3 === 0 && num % 5 === 0) {
-  console.log("Fizzbuzz");
-} else if (num % 3 === 0) {
-  console.log("Fizz");
-} else if (num % 5 === 0) {
-    console.log("Buzz");
-} else {
-  console.log(num);
-}
+// let num = 8
+// if (num % 3 === 0 && num % 5 === 0) {
+//   console.log("Fizzbuzz");
+// } else if (num % 3 === 0) {
+//   console.log("Fizz");
+// } else if (num % 5 === 0) {
+//     console.log("Buzz");
+// } else {
+//   console.log(num);
+// }
+

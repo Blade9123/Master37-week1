@@ -14,7 +14,7 @@
 // let favsSongs = [
 // "Lovesong - The Cure",
 // "Back in Black - AC/DC",
-// "Thunderstruck AC/DC"
+// "Thunderstruck - AC/DC"
 // ]
 // console.log(favsSongs);
 
@@ -82,16 +82,79 @@
 
 // let randomNumber = Math.floor(Math.random() * 50) + 1;
 // console.log(randomNumber);
-// Activity 2
-// let randomNumber = Array(50).fill().map((_, index) => index + 1);
-// randomNumber.sort(() => Math.random() - 0.5);
-// console.log(randomNumber.slice(0,6));
 
-// Activity 3
+// // Activity 2
+// // let randomNumber = Array(50).fill().map((_, index) => index + 1);
+// // randomNumber.sort(() => Math.random() - 0.5);
+// // console.log(randomNumber.slice(0,6));
 
-for (let i = 9; i >= 0; i--) {
-  console.log(i) + 1;
-}
+// // // Activity 3
+// for (let i = 9; i >= 0; i--) {
+//   console.log(i);
+// }
 
 
+// // Activity 4
+// let films = ["Avengers", "Harry Potter", "Ghostbusters", "Matrix"]
 
+// for (let i = 0; i < films.length; i++) {
+//     console.log(films[i])
+//     if (films[i] == "Ghostbusters") {
+//         console.log("Yay it's Ghostbusters")
+//     }
+//     else {
+//         console.log("Boo! we want Ghostbusters!")
+//     } 
+// }
+
+// Activity 5
+
+// const gen = () => {
+//   const num = Math.floor(Math.random() * 30 + 1); // create number
+//   console.log(num, num % 7 === 0 ? "Is divisible " : "Not divisible") // use modulo to check remaining
+// }
+// for (let i=0; i<6; i++) gen(); // repeat 6 times
+
+// Activity 6
+// const bobsFollowers = ["John", "Fred", "Emily", "Abigail"];
+// const hannahsFollowers = ["Fred", "Trevor", "Gary", "Abigail"]
+// for(let i = 0; i < bobsFollowers.length; i++) {
+//  for(let h = 0; h < hannahsFollowers.length; h++){
+//    if (bobsFollowers[i] === hannahsFollowers[h]) {
+//        console.log(`Your matching follower: ${bobsFollowers[i]}`)
+//    }
+//  }
+// }
+
+// Activity 7
+
+// program to display text 5 times
+// const n = 5;
+
+// // looping from i = 1 to 5
+// const n = 5;
+// for (let i = 1; i <= n; i++) {
+//   console.log(`I love coding`);
+
+// }
+
+// program to display numbers from 1 to 5
+// initialize the variable
+let ind = 1, num = 5;
+
+// while loop from i = 1 to 5
+// while (ind <= num) {
+//     console.log(ind);
+//     ind += 1;
+// }
+
+
+// // program to display numbers
+// let i = 1;
+// const n = 5;
+
+// // do...while loop from 1 to 5
+// do {
+//     console.log(i);
+//     i++;
+// } while(i <= n);
